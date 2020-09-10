@@ -3,14 +3,15 @@
 A chrome extension that enables you to run Youtube-style hotkeys on `audio` and `video` elements on any website.
 
 Hotkeys include:
-`k` toggle play/pause
-`j` / `l` Skip forward/backward 10 seconds
-`left` / `right` Skip forward/backward 5 seconds
-`<` / `>` Decrease/Increase playback rate by 0.25
-`0`-`9` Skip to percentage of media, 0% to 90%
-`m` Toggle mute
 
-To toggle these media hotkeys, press `ctrl+m`.
+- `k` toggle play/pause
+- `j` / `l` Skip forward/backward 10 seconds
+- `left` / `right` Skip forward/backward 5 seconds
+- `<` / `>` Decrease/Increase playback rate by 0.25
+- `0`-`9` Skip to percentage of media, 0% to 90%
+- `m` Toggle mute
+
+To toggle these media hotkeys on/off, press `ctrl+m`.
 
 
 
