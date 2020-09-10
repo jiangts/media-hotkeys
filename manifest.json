@@ -16,8 +16,9 @@
         "<all_urls>"
       ],
       "js": [
-        "js/jquery/jquery.min.js",
-        "src/inject/inject.js"
+        "js/jquery-2.2.4.min.js",
+        "js/mousetrap.min.js",
+        "src/inject/index.js"
       ]
     }
   ]
