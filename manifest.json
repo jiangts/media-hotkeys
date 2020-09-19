@@ -1,6 +1,6 @@
 {
-  "name": "Media Shortcuts",
-  "version": "0.0.1",
+  "name": "Media Hotkeys",
+  "version": "0.1.1",
   "manifest_version": 2,
   "description": "Add Youtube style keyboard shortcuts to the media elements on all pages",
   "homepage_url": "https://github.com/jiangts/media-hotkeys",
