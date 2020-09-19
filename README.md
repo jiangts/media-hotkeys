@@ -17,7 +17,7 @@ To toggle these media hotkeys on/off, press `ctrl+m`.
 
 ### Installation
 
-Download the `.crx` package [media-hotkeys.crx.zip](https://github.com/jiangts/media-hotkeys/files/5205145/media-hotkeys.crx.zip), or find it in the releases page.
+Download the `.crx` package [media-hotkeys.crx](https://github.com/jiangts/media-hotkeys/raw/master/releases/latest.crx), or find it in the releases page.
 
 I may publish this app to the Chrome store soon... It's currently mainly for personal use to listen to the audio Bible on Bible.com :smile:
 
