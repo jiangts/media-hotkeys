@@ -22,6 +22,11 @@ Download the `.crx` package [media-hotkeys.crx](https://github.com/jiangts/media
 I may publish this app to the Chrome store soon... It's currently mainly for personal use to listen to the audio Bible on Bible.com :smile:
 
 
+### Packaging
+
+`VER={version} npm run package`
+
+
 
 ### Acknowledgements
 
