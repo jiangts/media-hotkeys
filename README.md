@@ -29,6 +29,7 @@ Special thanks to a couple projects that made this extension a breeze!
 
 - [Mousetrap](https://craig.is/killing/mice)
 - [Toastr](https://codeseven.github.io/toastr/)
+- [Screenfull](https://github.com/sindresorhus/screenfull.js/)
 
 
 
