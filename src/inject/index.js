@@ -1,5 +1,5 @@
 $(() => {
-  let mm, lastPlayed, medias = $('video, audio'), hotkeys = {}
+  let mm = true, lastPlayed, medias = $('video, audio'), hotkeys = {}
   addEventListener('playing', e => {
     lastPlayed = e.target
   }, true)
@@ -66,6 +66,14 @@ $(() => {
     notify(media.muted ? 'Muted' : 'Unmuted')
   }
 
+  const toggleFullscreen = () => e => {
+    let media = lastPlayed || medias[0]
+    if(!media) return
+    if (screenfull.isEnabled) {
+      screenfull.request(media);
+    }
+  }
+
   // hotkeys['space'] = togglePlayPause();
   hotkeys['k'] = togglePlayPause();
   hotkeys['j'] = jump(-10);
@@ -74,6 +82,7 @@ $(() => {
   hotkeys['right'] = jump(5);
   hotkeys['<'] = playbackRate(-0.25);
   hotkeys['>'] = playbackRate(0.25);
+  hotkeys['f'] = toggleFullscreen();
   for(let i = 0; i < 10; i++) {
     hotkeys[i+''] = seekPercent(i * 10);
   }
@@ -95,5 +104,9 @@ $(() => {
     for(var k in hotkeys) {
       Mousetrap.unbind(k)
     }
+  }
+
+  if(mm) {
+    bindAll()
   }
 })
