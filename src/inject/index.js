@@ -70,7 +70,7 @@ $(() => {
     let media = lastPlayed || medias[0]
     if(!media) return
     if (screenfull.isEnabled) {
-      screenfull.request(media);
+      screenfull.toggle(media);
     }
   }
 
