@@ -106,7 +106,14 @@ $(() => {
     }
   }
 
-  if(mm) {
-    bindAll()
-  }
+  chrome.runtime.sendMessage({ init: true }, (response={}) => {
+    // console.log('response', response)
+    mm = response.activate
+    if (mm) {
+      bindAll()
+    } else {
+      // console.log('skip media hotkeys')
+    }
+  });
+
 })
